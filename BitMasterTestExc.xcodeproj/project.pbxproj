@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40D524D5263063D00062FB11 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D524D4263063D00062FB11 /* MapViewController.m */; };
+		40D524DF26306C2D0062FB11 /* GithubApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D524DE26306C2D0062FB11 /* GithubApiService.swift */; };
+		40D524E92630A70D0062FB11 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D524E82630A70D0062FB11 /* Constants.swift */; };
 		40E9E663261246B00083C09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9E662261246B00083C09C /* AppDelegate.swift */; };
-		40E9E665261246B00083C09C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9E664261246B00083C09C /* SceneDelegate.swift */; };
-		40E9E667261246B00083C09C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9E666261246B00083C09C /* ViewController.swift */; };
+		40E9E667261246B00083C09C /* RepoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9E666261246B00083C09C /* RepoTableViewController.swift */; };
 		40E9E66A261246B00083C09C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E9E668261246B00083C09C /* Main.storyboard */; };
 		40E9E66C261246B20083C09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E9E66B261246B20083C09C /* Assets.xcassets */; };
 		40E9E66F261246B20083C09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E9E66D261246B20083C09C /* LaunchScreen.storyboard */; };
+		40E9E68C261311030083C09C /* NDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9E68B261311030083C09C /* NDError.swift */; };
+		40E9E68F2613111B0083C09C /* NDErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9E68E2613111B0083C09C /* NDErrorExtension.swift */; };
+		40E9E6AA2613259F0083C09C /* GitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9E6A92613259F0083C09C /* GitResponse.swift */; };
+		40E9E6AD26132AAF0083C09C /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9E6AC26132AAF0083C09C /* RepoModel.swift */; };
+		40E9E6B326134C5E0083C09C /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9E6B226134C5E0083C09C /* RepoTableViewCell.swift */; };
+		C0565E6EABF50EE1153C3385 /* libPods-BitMasterTestExc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 908AA9F567E1C80647D1FF9B /* libPods-BitMasterTestExc.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40D524D4263063D00062FB11 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		40D524D7263065590062FB11 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		40D524DE26306C2D0062FB11 /* GithubApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubApiService.swift; sourceTree = "<group>"; };
+		40D524E82630A70D0062FB11 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		40D524ED2630A9E60062FB11 /* BitMasterTestExc-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BitMasterTestExc-Bridging-Header.h"; sourceTree = "<group>"; };
 		40E9E65F261246B00083C09C /* BitMasterTestExc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitMasterTestExc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E9E662261246B00083C09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40E9E664261246B00083C09C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40E9E666261246B00083C09C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40E9E666261246B00083C09C /* RepoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewController.swift; sourceTree = "<group>"; };
 		40E9E669261246B00083C09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40E9E66B261246B20083C09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E9E66E261246B20083C09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40E9E670261246B20083C09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E9E68B261311030083C09C /* NDError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDError.swift; sourceTree = "<group>"; };
+		40E9E68E2613111B0083C09C /* NDErrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDErrorExtension.swift; sourceTree = "<group>"; };
+		40E9E6A92613259F0083C09C /* GitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitResponse.swift; sourceTree = "<group>"; };
+		40E9E6AC26132AAF0083C09C /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
+		40E9E6B226134C5E0083C09C /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		908AA9F567E1C80647D1FF9B /* libPods-BitMasterTestExc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitMasterTestExc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C548533129899AD3D3A2B4 /* Pods-BitMasterTestExc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitMasterTestExc.release.xcconfig"; path = "Target Support Files/Pods-BitMasterTestExc/Pods-BitMasterTestExc.release.xcconfig"; sourceTree = "<group>"; };
+		B434F7F79275865FBEFB429A /* Pods-BitMasterTestExc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitMasterTestExc.debug.xcconfig"; path = "Target Support Files/Pods-BitMasterTestExc/Pods-BitMasterTestExc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0565E6EABF50EE1153C3385 /* libPods-BitMasterTestExc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				40E9E661261246B00083C09C /* BitMasterTestExc */,
 				40E9E660261246B00083C09C /* Products */,
+				D1CE3557DA9BB9BC6A90226F /* Pods */,
+				45B9494D7391668A9F52681D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,105 @@
 		40E9E661261246B00083C09C /* BitMasterTestExc */ = {
 			isa = PBXGroup;
 			children = (
-				40E9E662261246B00083C09C /* AppDelegate.swift */,
-				40E9E664261246B00083C09C /* SceneDelegate.swift */,
-				40E9E666261246B00083C09C /* ViewController.swift */,
-				40E9E668261246B00083C09C /* Main.storyboard */,
-				40E9E66B261246B20083C09C /* Assets.xcassets */,
-				40E9E66D261246B20083C09C /* LaunchScreen.storyboard */,
-				40E9E670261246B20083C09C /* Info.plist */,
+				40E9E682261250290083C09C /* Application */,
+				40E9E6A7261323170083C09C /* Entities */,
+				40E9E692261319DC0083C09C /* Controller */,
+				40E9E6B126134C3B0083C09C /* View */,
+				40E9E685261251430083C09C /* Services */,
+				40E9E683261250D80083C09C /* Common */,
 			);
 			path = BitMasterTestExc;
+			sourceTree = "<group>";
+		};
+		40E9E682261250290083C09C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				40E9E670261246B20083C09C /* Info.plist */,
+				40E9E662261246B00083C09C /* AppDelegate.swift */,
+				40E9E66B261246B20083C09C /* Assets.xcassets */,
+				40E9E668261246B00083C09C /* Main.storyboard */,
+				40E9E66D261246B20083C09C /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		40E9E683261250D80083C09C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				40D524E82630A70D0062FB11 /* Constants.swift */,
+				40E9E6862612517F0083C09C /* Error */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		40E9E685261251430083C09C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				40D524DE26306C2D0062FB11 /* GithubApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		40E9E6862612517F0083C09C /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				40E9E68B261311030083C09C /* NDError.swift */,
+				40E9E68E2613111B0083C09C /* NDErrorExtension.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		40E9E692261319DC0083C09C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40E9E666261246B00083C09C /* RepoTableViewController.swift */,
+				40D524ED2630A9E60062FB11 /* BitMasterTestExc-Bridging-Header.h */,
+				40D524D7263065590062FB11 /* MapViewController.h */,
+				40D524D4263063D00062FB11 /* MapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40E9E6A7261323170083C09C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				40E9E6A82613233A0083C09C /* DataModels */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		40E9E6A82613233A0083C09C /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				40E9E6A92613259F0083C09C /* GitResponse.swift */,
+				40E9E6AC26132AAF0083C09C /* RepoModel.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		40E9E6B126134C3B0083C09C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40E9E6B226134C5E0083C09C /* RepoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45B9494D7391668A9F52681D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				908AA9F567E1C80647D1FF9B /* libPods-BitMasterTestExc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1CE3557DA9BB9BC6A90226F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B434F7F79275865FBEFB429A /* Pods-BitMasterTestExc.debug.xcconfig */,
+				A8C548533129899AD3D3A2B4 /* Pods-BitMasterTestExc.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40E9E673261246B20083C09C /* Build configuration list for PBXNativeTarget "BitMasterTestExc" */;
 			buildPhases = (
+				93B6BA9F802D4F22786A1835 /* [CP] Check Pods Manifest.lock */,
 				40E9E65B261246B00083C09C /* Sources */,
 				40E9E65C261246B00083C09C /* Frameworks */,
 				40E9E65D261246B00083C09C /* Resources */,
+				E6B7A49DEFD5445D390BF957 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +213,7 @@
 				TargetAttributes = {
 					40E9E65E261246B00083C09C = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -132,14 +248,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93B6BA9F802D4F22786A1835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitMasterTestExc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B7A49DEFD5445D390BF957 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitMasterTestExc/Pods-BitMasterTestExc-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitMasterTestExc/Pods-BitMasterTestExc-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitMasterTestExc/Pods-BitMasterTestExc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40E9E65B261246B00083C09C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E9E667261246B00083C09C /* ViewController.swift in Sources */,
+				40E9E6AD26132AAF0083C09C /* RepoModel.swift in Sources */,
+				40D524E92630A70D0062FB11 /* Constants.swift in Sources */,
+				40E9E68C261311030083C09C /* NDError.swift in Sources */,
+				40D524D5263063D00062FB11 /* MapViewController.m in Sources */,
+				40E9E6B326134C5E0083C09C /* RepoTableViewCell.swift in Sources */,
+				40E9E667261246B00083C09C /* RepoTableViewController.swift in Sources */,
+				40E9E6AA2613259F0083C09C /* GitResponse.swift in Sources */,
+				40E9E68F2613111B0083C09C /* NDErrorExtension.swift in Sources */,
 				40E9E663261246B00083C09C /* AppDelegate.swift in Sources */,
-				40E9E665261246B00083C09C /* SceneDelegate.swift in Sources */,
+				40D524DF26306C2D0062FB11 /* GithubApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,39 +448,48 @@
 		};
 		40E9E674261246B20083C09C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B434F7F79275865FBEFB429A /* Pods-BitMasterTestExc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WX79G9TM27;
-				INFOPLIST_FILE = BitMasterTestExc/Info.plist;
+				INFOPLIST_FILE = BitMasterTestExc/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kisaShket.BitMasterTestExc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitMasterTestExc/Controller/BitMasterTestExc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		40E9E675261246B20083C09C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C548533129899AD3D3A2B4 /* Pods-BitMasterTestExc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WX79G9TM27;
-				INFOPLIST_FILE = BitMasterTestExc/Info.plist;
+				INFOPLIST_FILE = BitMasterTestExc/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kisaShket.BitMasterTestExc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitMasterTestExc/Controller/BitMasterTestExc-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
